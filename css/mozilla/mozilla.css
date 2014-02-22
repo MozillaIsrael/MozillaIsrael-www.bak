@@ -1,0 +1,137 @@
+
+/* Small screens (default) */
+html { font-size: 100%; }
+
+/* Medium screens (640px) */
+@media (min-width: 40rem) {
+  html { font-size: 112%; }
+}
+
+/* Large screens (1024px) */
+@media (min-width: 64rem) {
+  html { font-size: 120%; }
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 48rem;
+  width: 90%;
+}
+
+@media (min-width: 64rem) {
+	.main.content {
+		min-height: 20em;
+	}
+}
+@media (min-width: 40rem) {
+  .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+
+  .column.full { width: 100%; }
+  .column.two-thirds { width: 66.7%; }
+  .column.half { width: 50%; }
+  .column.third { width: 33.3%; }
+  .column.fourth { width: 24.95%; }
+  .column.flow-opposite { float: right; }
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.row {
+  *zoom: 1;
+}
+
+.debug * { border:1px dotted red; }
+
+
+
+
+
+html {margin-top: 2px; background: white }
+
+body {
+  margin: 0; padding: 0;
+  /* http://www.mozilla.org/en-US/styleguide/websites/sandstone/colors/ */
+	background:  url('grain.png') repeat scroll, linear-gradient( to bottom, #CAE1F4, #EEEEEE);
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* https://www.mozilla.org/en-US/styleguide/websites/sandstone/typefaces/ */
+.body {
+  font-size: 14px;
+  line-height: 20px;
+}
+.large {
+  font-size: 72px;
+  letter-spacing: -3px;
+  line-height: 100%;
+}
+h1 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 100%;
+}
+h2 {
+  font-size: 32px;
+  letter-spacing: -1px;
+  line-height: 100%;
+}
+h3 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  line-height: 100%;
+}
+h4 {
+  font-size: 24px;
+  letter-spacing: -0.25px;
+  line-height: 100%;
+}
+.small, small {
+  font-size: 12px;
+  line-height: 100%;
+}
+
+
+
+.footer {
+  background: white;  
+}
+
+a, a:focus { color: #0095DD; text-decoration: none;} 
+a:hover    { color: #00539F;}
+
+
+#masthead #nav-main { margin: 0; padding: 0;}
+#masthead #nav-main li {
+  padding: 0 12px;
+  display: inline-block;
+}
+
+.footer-nav {
+  margin: 0; padding: 0;
+}
+.footer-nav li {
+  padding: 0; margin: 0; list-style: none;
+}
+
+.footer-logo {
+  display: inline-block;
+  background: url(logo.png) no-repeat; 
+  width: 125px;
+  height: 50px
+}
+
+

@@ -1,0 +1,10 @@
+name: Mozilla Israel
+markdown: redcarpet
+pygments: true
+
+repo-url: https://github.com/MozillaIsrael/www/
+url: https://tomer.github.io/MozillaIsrael-www
+baseurl: /MozillaIsrael-www/
+
+direction: rtl
+language: he
