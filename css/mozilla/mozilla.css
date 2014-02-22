@@ -106,7 +106,7 @@ h4 {
   line-height: 100%;
 }
 
-
+.header .title { text-align: center;}
 
 .footer {
   background: white;  
