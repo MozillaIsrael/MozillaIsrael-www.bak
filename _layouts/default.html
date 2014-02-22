@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="no-debug"
+ {% if page.language %} lang="{{ page.language }}"  {% else %} 
+ {% if site.language %} lang="{{ site.language }}" {% endif %} {% endif %}  
+ {% if page.direction %} dir="{{ page.direction }}" {% else %} 
+ {% if site.direction %} dir="{{ site.direction }}" {% endif %} {% endif %}>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- syntax highlighting CSS -->
+        <!--link rel="stylesheet" href="/css/syntax.css"-->
+
+        <!-- Custom CSS -->
+        <!--link rel="stylesheet" href="/css/main.css"-->
+        <link rel="stylesheet" href="{{site.baseurl}}css/mozilla/mozilla.css">
+        
+        <link href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
+    
+
+        <div class="site">
+          <div class="header">
+            <div id="masthead">
+              <a href="https://mozilla.org" id="tabzilla">mozilla</a>
+              <ul id="nav-main">
+                <li> <a href="{{site.baseurl}}">עמוד ראשי</a>
+                <li> <a href="http://mozilla.org.il/news/">בלוג</a>
+                <li> <a href="http://mozilla.org.il/board/">פורום</a>
+                <li> <a href="{{site.baseurl}}about/">אודות</a>                
+                
+              </ul>
+            </div>
+            <div class="content">
+              <h1 class="title"><a href="{{site.baseurl}}">{{ site.name }}</a></h1>
+              <!--a class="extra" href="/">home</a-->
+            </div>
+          </div>
+
+          <div class="main content">
+          {{ content }}
+          
+          </div>
+
+          <div class="footer">
+            <script src="//mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
+            <div class="content row">
+              <div class="column fourth">
+                <a href="/" class="footer-logo"> </a>
+              </div>
+            
+              <div class="column half">
+                <p>הזכויות של חלקים מתוכן זה שמורות ©1998–2014 לתורמים של mozilla.org. התוכן זמין תחת רישיון Creative Commons. 
+                <!--Last update:  {{ site.time | date_to_string }} -->
+                  <a href="{{site.repo-url}}/{{ page.path }}"> עריכת דף זה </a>
+                </p>
+              </div>
+            
+              <div class="column fourth">
+                <ul class="footer-nav">
+                  <li><a href="http://mozilla.org.il/board">Forum</a>
+                  <li><a href="http://mozilla.org.il/news/">Blog</a>
+                  <li><a href="https://twitter.com/MozillaIsrael">Twitter</a>
+                  <li><a href="https://facebook.com/MozillaIsrael">Facebook</a>                  
+                  <li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
