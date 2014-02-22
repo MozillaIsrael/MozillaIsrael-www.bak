@@ -2,7 +2,7 @@ name: Mozilla Israel
 markdown: redcarpet
 pygments: true
 
-repo-url: https://github.com/tomer/MozillaIsrael-www/blob/gh-pages/
+repo-url: https://github.com/tomer/MozillaIsrael-www/blob/gh-pages
 url: https://tomer.github.io/MozillaIsrael-www
 baseurl: /MozillaIsrael-www/
 
