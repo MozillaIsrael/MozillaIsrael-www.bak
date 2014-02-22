@@ -61,11 +61,13 @@ html { font-size: 100%; }
 
 html {margin-top: 2px; background: white }
 
+
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
 body {
   margin: 0; padding: 0;
   /* http://www.mozilla.org/en-US/styleguide/websites/sandstone/colors/ */
 	background:  url('grain.png') repeat scroll, linear-gradient( to bottom, #CAE1F4, #EEEEEE);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Alef Hebrew', serif;
 }
 
 
