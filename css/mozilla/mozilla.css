@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
 
 /* Small screens (default) */
 html { font-size: 100%; }
@@ -61,8 +63,6 @@ html { font-size: 100%; }
 
 html {margin-top: 2px; background: white }
 
-
-@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
 body {
   margin: 0; padding: 0;
   /* http://www.mozilla.org/en-US/styleguide/websites/sandstone/colors/ */
