@@ -1,0 +1,1 @@
+/home/tomer/mozilla/update-wiki/templates/versions.yml.tpl
