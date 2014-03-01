@@ -11,5 +11,6 @@ permalink: /
 
 ---
 
-גרסה עדכנית של Firefox: {{ site.data.versions.FirefoxRelease }} [מידע נוסף](firefox/)
-גרסה עדכנית של Thunderbird: {{ site.data.versions.ThunderbirdRelease }} [מידע נוסף](thunderbird/)
+גרסה עדכנית של Firefox:&rlm; {{ site.data.versions.FirefoxRelease }} [מידע נוסף](firefox/)
+
+גרסה עדכנית של Thunderbird:&rlm; {{ site.data.versions.ThunderbirdRelease }} [מידע נוסף](thunderbird/)
