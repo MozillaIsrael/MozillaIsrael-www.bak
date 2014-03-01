@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /thunderbird
+permalink: /thunderbird/
 title: Mozilla Thunderbird
 ---
 #ת'אנדרבירד
