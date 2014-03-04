@@ -31,6 +31,9 @@ html { font-size: 100%; }
     float: right;
     padding-left: 1rem;
     padding-right: 1rem;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
     box-sizing: border-box;
   }
 
