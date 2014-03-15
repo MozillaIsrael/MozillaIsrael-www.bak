@@ -23,4 +23,6 @@ title: אודות מוזילה
 [הגרסה העברית של mozilla.org]: https://mozilla.org/he/
 
 
-נשמע מעניין? הצטרפו אלינו!
+נשמע מעניין? [הצטרפו אלינו]!
+
+[הצטרפו אלינו]: {{site.baseurl}}get-involved/
