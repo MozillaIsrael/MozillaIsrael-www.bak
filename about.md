@@ -16,6 +16,7 @@ title: אודות מוזילה
 4.    הגברת המודעות והפרסום של התוכנות בישראל
 
 בנוסף לאתר זה, ניתן למצוא אותנו גם ב[פייסבוק], [טוויטר], ו[גוגל פלוס], אנו מנהלים את [הגרסה העברית של mozilla.org] ועוד. 
+
 [פייסבוק]: https://facebook.com/MozillaIsrael
 [טוויטר]: https://twitter.com/MozillaIsrael
 [גוגל פלוס]: https://plus.google.com/+MozillaIsrael
