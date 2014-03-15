@@ -35,6 +35,12 @@ title: הצטרפות
 [תמיכה טכנית לכל דורש]: http://mozilla.org.il/board/viewforum.php?f=19
 
 </div></div>
+פעילויות נוספות במסגרת mozilla.org
+--------------------------------
+
+באתר mozilla.org קיימת [רשימה מפורטת] של תחומים נוספים בהם ניתן לקחת חלק. 
+
+[רשימה מפורטת]: http://www.mozilla.org/contribute/
 
 כל השאר
 --------
