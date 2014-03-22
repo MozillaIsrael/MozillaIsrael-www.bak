@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="column two-thirds">
+    {{ content }} 
+  </div>
+  <div class="column third"> 
+    <h2> הודעות אחרונות בפורום </h2>
+    <ul>
+{% for item in site.data.forum limit:5 %}
+      <li> {{item.day}}-{{item.month}}-{{item.year}} 
+        <a href="{{item.link}}">{{item.subject}}</a>
+      </li>
+{% endfor %}
+    </ul>
+  </div>
+</div>
