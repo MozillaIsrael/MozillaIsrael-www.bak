@@ -7,7 +7,7 @@ layout: default
 #פיירפוקס
 Firefox הוא דפדפן עטור פרסים מבית mozilla.org, המאפשר לך לגלוש ברשת מהר יותר, בביטחון רב יותר, וביעילות רבה יותר. הצטרף למיליונים שכבר החליפו את הדפדפן שלהם –  Firefox מייבא אוטומטית את המועדפים, ההגדרות והמידע הנוסף שלך מדפדפנים אחרים.
 
-![Firefox screenshot](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/1780897_696833793681453_971661367_n.png)
+<div style="background: url(https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/t1.0-9/1780897_696833793681453_971661367_n.png) no-repeat; height: 150px"> </div>
 
 <div class="row"><div class="column third" markdown="1">
 
