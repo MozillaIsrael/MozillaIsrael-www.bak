@@ -24,8 +24,11 @@
 
         <!-- Custom CSS -->
         <!--link rel="stylesheet" href="/css/main.css"-->
+{% if site.github.url %}
+        <link rel="stylesheet" href="{{site.github.url}}/css/mozilla/mozilla.css">
+{% else %}
         <link rel="stylesheet" href="{{site.baseurl}}css/mozilla/mozilla.css">
-        
+{% endif %}        
         <link href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         
@@ -38,16 +41,27 @@
             <div id="masthead" class="content">
               <a href="https://mozilla.org" id="tabzilla">mozilla</a>
               <ul id="nav-main">
+{% if site.github.url %}
+                <li> <a href="{{site.github.url}}">עמוד ראשי</a>
+{% else %}
                 <li> <a href="{{site.baseurl}}">עמוד ראשי</a>
+{% endif %}
                 <li> <a href="http://mozilla.org.il/news/">בלוג</a>
                 <li> <a href="http://mozilla.org.il/board/">פורום</a>
-                <li> <a href="{{site.baseurl}}about/">אודות</a>                
-                
+{% if site.github.url %}
+                <li> <a href="{{site.github.url}}/about/">אודות</a>
+{% else %}
+                <li> <a href="{{site.baseurl}}about/">אודות</a>
+{% endif %}
               </ul>
             </div>
             <div class="content">
+{% if site.github.url %}
+              <h1 class="title"><a href="{{site.github.url}}">{{ site.name }}</a></h1>
+              <h2><a href="{{site.github.repository_url}}">{{site.github.project_title}}</a> {{site.github.project_tagline}}
+{% else %}
               <h1 class="title"><a href="{{site.baseurl}}">{{ site.name }}</a></h1>
-              <!--a class="extra" href="/">home</a-->
+{% endif %}
             </div>
           </div>
 
@@ -65,9 +79,14 @@
             
               <div class="column half">
                 <p>הזכויות על חלקים מתוכן זה שמורות ©1998–2014 לתורמים של mozilla.org.il. התוכן זמין תחת <a href="http://www.mozilla.org/he/foundation/licensing/website-content/">רישיון Creative Commons</a>. 
-                <!--Last update:  {{ site.time | date_to_string }} -->
+                <!--Last update:  {{ site.time | date_to_string }} Build revision: {{ site.github.build_revision }} -->
+{% if site.github.url %}
+                  <i class="fa fa-github"></i> <a href="{{ site.github.repository_url }}/blob/gh-pages/{{ page.path }}"> עריכת דף זה </a> 
+                  <i class="fa fa-github"></i> <a href="{{site.repo-url}}/../../issues/new/?title=%5B{{page.path}}%5D%20%20%20&amp;body=%0A%0A%0APage%20location%3A%20{{ site.github.repository_url }}/blob/gh-pages/{{ page.path }}%0ALive%20page%3A%20{{site.github.url}}/{{page.permalink}}"> שליחת משוב על דף זה </a>
+{% else %}
                   <i class="fa fa-github"></i> <a href="{{site.repo-url}}/{{ page.path }}"> עריכת דף זה </a> 
                   <i class="fa fa-github"></i> <a href="{{site.repo-url}}/../../issues/new/?title=%5B{{page.path}}%5D%20%20%20&amp;body=%0A%0A%0APage%20location%3A%20{{site.repo-url}}/{{page.path}}%0ALive%20page%3A%20{{site.url}}/{{page.permalink}}"> שליחת משוב על דף זה </a>
+{% endif %}
                 </p>
               </div>
             
