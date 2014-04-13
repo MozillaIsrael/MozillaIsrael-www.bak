@@ -3,8 +3,8 @@ markdown: kramdown
 
 pygments: false
 
-repo-url: https://github.com/tomer/MozillaIsrael-www/blob/gh-pages
-url: https://tomer.github.io/MozillaIsrael-www
+repo-url: https://github.com/MozillaIsrael/MozillaIsrael-www/blob/gh-pages
+url: https://MozillaIsrael.github.io/MozillaIsrael-www
 baseurl: /MozillaIsrael-www/
 
 direction: rtl
